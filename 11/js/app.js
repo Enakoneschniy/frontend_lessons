@@ -49,9 +49,7 @@
         const lights = document.getElementsByClassName('light');
         let index = 0;
         while (true) {
-
             yield (() => {
-
                 lights[index++].classList.remove('active');
                 if(index >= lights.length) {
                     index = 0;
