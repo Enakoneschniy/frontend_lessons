@@ -18,10 +18,10 @@
     function toggleActive() {
         this.classList.toggle('active');
     }
-    figure.addEventListener('mouseover', toggleActive.bind(figure));
-    // figure.removeEventListener('mouseover', toggleActive.bind(figure));
+    figure.addEventListener('mouseover', toggleActive);
+    // figure.removeEventListener('mouseover', toggleActive);
 
-    figure.addEventListener('mouseleave', toggleActive.bind(figure));
+    figure.addEventListener('mouseleave', toggleActive);
 
 
     let input = document.querySelector('.input');
